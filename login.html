@@ -1,0 +1,27 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Student Management System</h1>
+      <table id="studentTable">
+        <thead>
+          <tr>
+            <th>
+              Enter Your Student ID To login Into SMS
+              </th>
+          </tr>
+        </thead>
+        <tbody id="studentRecords"></tbody>
+      </table>
+      <form id="studentForm" action="student.html">
+        <input type="text" id="student_id" placeholder="Student ID">
+        <input type="password" id="pass" placeholder="Password">
+        <input type="submit" value="Login">
+      </form>
+    </div>
+    </body>
+</html>
