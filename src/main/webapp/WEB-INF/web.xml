@@ -59,4 +59,24 @@
     <servlet-name>UpdateServlet</servlet-name>
     <url-pattern>/UpdateServlet</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>SearchIDServlet</display-name>
+    <servlet-name>SearchIDServlet</servlet-name>
+    <servlet-class>com.lpu.webfs.SearchIDServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SearchIDServlet</servlet-name>
+    <url-pattern>/SearchIDServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>ShowAllServlet</display-name>
+    <servlet-name>ShowAllServlet</servlet-name>
+    <servlet-class>com.lpu.webfs.ShowAllServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ShowAllServlet</servlet-name>
+    <url-pattern>/ShowAllServlet</url-pattern>
+  </servlet-mapping>
 </web-app>
