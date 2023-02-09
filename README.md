@@ -13,3 +13,8 @@ How to run the Website?
 
 5) Open Student.html on browser
 
+
+© Aditya Charan and Nagarjun Reddy
+
+
+
