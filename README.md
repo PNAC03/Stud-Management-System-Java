@@ -1,7 +1,7 @@
 # Capstone-Project
 Student Management System
 
-How to run the Website?
+# How to run the Website?
 
 1) Import Schema from provided CSV files on MySQL Server under a table named 'student' and 'teacher' inside a 'student' schema
 
@@ -14,7 +14,8 @@ How to run the Website?
 5) Open Student.html on browser
 
 
-© Aditya Charan and Nagarjun Reddy
+
+A project by Aditya Charan (PNAC03) and Nagarjun Reddy (0xreddy)
 
 
 
