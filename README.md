@@ -1,5 +1,4 @@
-# Capstone-Project
-Student Management System
+# Student Management System
 
 # How to run the Website?
 
