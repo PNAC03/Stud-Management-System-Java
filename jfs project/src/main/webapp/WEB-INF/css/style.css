@@ -1,0 +1,150 @@
+body {
+  background-color: #121212;
+  color: #ddd;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+
+}
+
+.tabletop{
+  padding-left: 0px;
+  padding-bottom: 5px;
+  text-align: left;
+  border-bottom: 1px solid #333;
+}
+
+
+th,td {
+  padding-left: 0px;
+  padding-bottom: 10px;
+  text-align: left;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="password"] {
+  padding: 10px;
+  margin: 10px 0;
+  width: 100%;
+  background-color: #333;
+  color: #ddd;
+  border: none;
+  border-radius: 5px;
+  box-shadow: none;
+}
+
+
+
+/* Login Page */
+
+input[type="submit"] {
+  background-color: #ddd;
+  color: #121212;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #fff;
+  color: #121212;
+}
+
+
+/* Landing page */
+
+.options{
+  display:flex;
+  margin-top:30px;
+  
+}
+
+.StudentCard{
+  margin-top:50px;
+}
+
+button {
+  background-color: #e9eaec;
+  color: #121212;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #fff;
+  color: #121212;
+}
+
+.hlbutton{
+  display:flex;
+  background-color:#232225;
+  width:40%;
+  border-radius: 5px;;
+}
+
+#searchbox{
+  margin:5px;
+}
+
+#searchbut{
+  margin:5px;
+}
+
+#addbut, #rembut, #updatebut{
+  margin-left:10px;
+}
+
+tbody th{
+  text-align: center;
+  min-width:min-content;
+  font-weight: bold;
+  background-color: #232225;
+  padding:15px 15px;
+}
+
+tbody td{
+  text-align:center;
+  min-width: fit-content;
+  padding:auto;
+}
+
+.addrec, .remrec, .updaterec{
+  margin-top:50px;
+  border-radius: 5px;
+  padding:10px;
+  background-color: #232225;
+}
+
+.addrec input[type="text"], .remrec input[type="text"], .updaterec input[type="text"]{
+  padding:10px;
+  margin-bottom:10px;
+  margin-left:10px;
+  width:90%;
+}
+
+.addrecinter, .remrecinter, .updaterecinter{
+  margin-bottom:30px;
+}
+
+.addrechead, .remrechead, .updaterechead{
+  padding-left:15px;
+  padding-top:10px;
+}
+
+.addrecbut, .remrecbut, .updaterecbut{
+  margin-left:15px;
+  margin-top:10px
+}
